@@ -23,7 +23,7 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_KERNEL_PATH)/dtbo.img
 
-TARGET_KERNEL_SOURCE := kernel/redmi/begonia
+TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6785
 TARGET_KERNEL_CONFIG := begonia_user_defconfig
 
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
