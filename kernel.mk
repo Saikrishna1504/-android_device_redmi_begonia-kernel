@@ -4,6 +4,10 @@ DEVICE_KERNEL_PATH := device/redmi/begonia-kernel
 PRODUCT_COPY_FILES += \
     $(DEVICE_KERNEL_PATH)/dtb.img:dtb.img
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(DEVICE_KERNEL_PATH)/Image:kernel
+
 # Kernel modules
 KERNEL_MODULES_ORIG := $(DEVICE_KERNEL_PATH)/modules
 KERNEL_MODULES_DEST := $(TARGET_COPY_OUT_VENDOR)/lib/modules
